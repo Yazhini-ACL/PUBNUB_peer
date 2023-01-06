@@ -1,0 +1,19 @@
+
+  .dashboard__container {
+   
+    text-align: center;
+    background-color: #dcdcdc;
+   
+  }
+  .dashboard__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+  }
+  .dashboard div {
+    margin-top: 7px;
+  }
+  

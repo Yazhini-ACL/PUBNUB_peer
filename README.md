@@ -1,3 +1,27 @@
+{ "publishKey": "pub-c-8de9466d-463d-4d82-8e03-01bcd90d614d", "subscribeKey": "sub-c-d3a850e1-83e2-4268-b670-069980288efe" }
+
+
+import PubNub from "pubnub";
+import { PubNubProvider } from "pubnub-react";
+import { Chat, MessageList, MessageInput } from "@pubnub/react-chat-components";
+
+https://www.pubnub.com/blog/getting-started-reusing-react-chat-components-series/
+https://www.pubnub.com/blog/integrating-components-reusing-react-chat-components-series/
+https://www.pubnub.com/blog/customizing-chat-components-react-chat-components-series/
+
+Replace useHistory with useNavigate then
+
+const navigate = useNavigate();
+and then replace history.push('/path') with navigate('/path')
+
+Change history.replace('/path') with navigate('/path', { replace: true })
+
+Want to use state in push/navigate do navigate('/path', { state: { name:'Xyz' }})
+
+
+tutorial
+
+https://blog.logrocket.com/user-authentication-firebase-react-apps/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

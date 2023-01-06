@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PUBNUB_peer/static/css/main.502e131f.css",
+    "main.js": "/PUBNUB_peer/static/js/main.0b95464d.js",
+    "static/js/787.c7fd76a6.chunk.js": "/PUBNUB_peer/static/js/787.c7fd76a6.chunk.js",
+    "index.html": "/PUBNUB_peer/index.html",
+    "main.502e131f.css.map": "/PUBNUB_peer/static/css/main.502e131f.css.map",
+    "main.0b95464d.js.map": "/PUBNUB_peer/static/js/main.0b95464d.js.map",
+    "787.c7fd76a6.chunk.js.map": "/PUBNUB_peer/static/js/787.c7fd76a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.502e131f.css",
+    "static/js/main.0b95464d.js"
+  ]
+}
